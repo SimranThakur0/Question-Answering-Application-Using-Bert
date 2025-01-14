@@ -1,6 +1,6 @@
-from textSummarizer.constants import *
-from textSummarizer.utils.common import read_yaml, create_directories
-from textSummarizer.entity import (DataIngestionConfig,
+from Question_Answering_With_BERT.constants import *
+from Question_Answering_With_BERT.utils.common import read_yaml, create_directories
+from Question_Answering_With_BERT.entity import (DataIngestionConfig,
                                    DataValidationConfig,
                                    DataTransformationConfig,
                                    ModelTrainerConfig,
