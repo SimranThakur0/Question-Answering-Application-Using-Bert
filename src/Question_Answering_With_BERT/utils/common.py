@@ -1,7 +1,7 @@
 import os
 from box.exceptions import BoxValueError
 import yaml
-from textSummarizer.logging import logger
+from Question_Answering_With_BERT.logging import logger
 from ensure import ensure_annotations
 from box import ConfigBox
 from pathlib import Path
