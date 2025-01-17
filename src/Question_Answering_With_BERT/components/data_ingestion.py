@@ -3,9 +3,9 @@ import urllib.request as request
 import json
 from pathlib import Path
 from zipfile import ZipFile
-from Question_Answering_With_BERT.logging import logger
-from Question_Answering_With_BERT.utils.common import get_size
-from Question_Answering_With_BERT.entity import DataIngestionConfig
+from logging_module import logger  # Adjusted import based on your logging setup
+from utils.common import get_size  # Adjusted import based on your utilities setup
+from entity.config_entity import DataIngestionConfig  # Adjusted import based on your entity setup
 
 
 class DataIngestion:
