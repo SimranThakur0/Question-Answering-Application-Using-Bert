@@ -1,6 +1,6 @@
-from textSummarizer.config.configuration import ConfigurationManager
-from textSummarizer.conponents.data_ingestion import DataIngestion
-from textSummarizer.logging import logger
+from Question_Answering_With_BERT.config.configuration import ConfigurationManager
+from Question_Answering_With_BERT.components.data_ingestion import DataIngestion
+from Question_Answering_With_BERT.logging import logger
 
 
 class DataIngestionTrainingPipeline:
