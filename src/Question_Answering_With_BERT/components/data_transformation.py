@@ -1,7 +1,5 @@
 import os
-from logging_module import logger  # Adjusted import based on your logging setup
-from transformers import AutoTokenizer
-from datasets import load_dataset, load_from_disk
+from Question_Answering_With_BERT.logging import logger  # Adjusted import based on your logging setup
 from entity.config_entity import DataTransformationConfig  # Adjusted import based on your entity setup
 
 
@@ -29,10 +27,4 @@ class DataTransformation:
             'labels': target_encodings['input_ids']
         }
 
-    def convert(self):
-        """
-        Loads the dataset, processes it, and saves the tokenized version.
-        """
-        dataset_samsum = load_from_disk(self.config.data_path)
-        dataset_samsum_pt = dataset_samsum.map(self.convert_examples_to_features, batched=True)
-        dataset_samsum_pt.save_to_disk(os.path.join(self.config.root_dir, "samsum_dataset"))
+    
