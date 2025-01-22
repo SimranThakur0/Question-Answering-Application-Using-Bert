@@ -1,6 +1,6 @@
 import os
-from textSummarizer.logging import logger
-from textSummarizer.entity import DataValidationConfig
+from Question_Answering_With_BERT.logging import logger
+from Question_Answering_With_BERT.entity import DataValidationConfig
 
 class DataValiadtion:
     def __init__(self, config: DataValidationConfig):
