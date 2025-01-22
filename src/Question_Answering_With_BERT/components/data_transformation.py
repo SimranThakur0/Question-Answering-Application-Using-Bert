@@ -1,6 +1,6 @@
 import os
 from Question_Answering_With_BERT.logging import logger  # Adjusted import based on your logging setup
-from entity.config_entity import DataTransformationConfig  # Adjusted import based on your entity setup
+from Question_Answering_With_BERT.entity.config_entity import DataTransformationConfig  # Adjusted import based on your entity setup
 
 
 class DataTransformation:
