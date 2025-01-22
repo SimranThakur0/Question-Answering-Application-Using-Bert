@@ -1,8 +1,8 @@
 import os
 from transformers import AutoModelForSeq2SeqLM, Trainer, TrainingArguments
 from datasets import load_from_disk
-from logging_module import logger  # Adjusted import based on your logging setup
-from entity.config_entity import ModelTrainingConfig  # Adjusted import based on your entity setup
+from Question_Answering_With_BERT.logging import logger  # Adjusted import based on your logging setup
+from Question_Answering_With_BERT.entity.config_entity import ModelTrainingConfig  # Adjusted import based on your entity setup
 
 
 class ModelTrainer:
