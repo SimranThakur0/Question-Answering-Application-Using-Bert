@@ -1,4 +1,4 @@
-# Question Answering Application Using BERT
+# Question Answering Application Using BERT 
  
 Welcome to the Question Answering Application built using **BERT** (Bidirectional Encoder Representations from Transformers). This project demonstrates the implementation of a state-of-the-art natural language processing (NLP) model for extracting precise answers from a given context.
 
