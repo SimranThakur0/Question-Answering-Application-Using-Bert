@@ -2,7 +2,7 @@
  
 Welcome to the Question Answering Application built using **BERT** (Bidirectional Encoder Representations from Transformers). This project demonstrates the implementation of a state-of-the-art natural language processing (NLP) model for extracting precise answers from a given context.
  
-## 📖 Project Description 
+## 📖 Project Description  
 
 This application leverages the **BERT model**, fine-tuned on the **SQuAD (Stanford Question Answering Dataset)**, to answer questions based on a provided context. The goal is to explore and showcase the capabilities of transformer-based models in understanding and interpreting natural language.
 
